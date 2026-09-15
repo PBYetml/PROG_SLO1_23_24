@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PBY\\GITHUB\\PROG_DEMO_SLO26_27\\CodeDemo\\codeDemo26_27\\DEMO26_27\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEE985BA-D197-4F49-B6CF-F1BBFBED5396}|DEMO26_27\\DEMO26_27.vcxproj|C:\\PBY\\GITHUB\\PROG_DEMO_SLO26_27\\CodeDemo\\codeDemo26_27\\DEMO26_27\\DEMO26_27\\demo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EEE985BA-D197-4F49-B6CF-F1BBFBED5396}|DEMO26_27\\DEMO26_27.vcxproj|solutionrelative:DEMO26_27\\demo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "demo.c",
+              "DocumentMoniker": "C:\\PBY\\GITHUB\\PROG_DEMO_SLO26_27\\CodeDemo\\codeDemo26_27\\DEMO26_27\\DEMO26_27\\demo.c",
+              "RelativeDocumentMoniker": "DEMO26_27\\demo.c",
+              "ToolTip": "C:\\PBY\\GITHUB\\PROG_DEMO_SLO26_27\\CodeDemo\\codeDemo26_27\\DEMO26_27\\DEMO26_27\\demo.c",
+              "RelativeToolTip": "DEMO26_27\\demo.c",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-09-15T08:31:23.154Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

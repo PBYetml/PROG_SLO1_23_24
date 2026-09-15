@@ -1,15 +1,15 @@
 //-----------------------------------------------------------------------------------//
 // Project Name 		: Demo26_27
 // File name 			: demo.c
-// Date de cr�ation    : 29.09.2025
-// Date de modification : 14.09.2026
+// Date de cr�ation     : 29.09.2025
+// Date de modification : 15.09.2026
 //
 // Auteur 				: Philou (Ph. Bovey)
 //
 // Version				: 1.4
 //
 // Description          : demo pour SLO1 26-27
-//						  -> type 
+//						  -> types Entier
 //						  -> variable - tableau 
 //						  -> condition - it�ration
 //						  -> appel de fontion - utilisation lib perso + standard 
@@ -18,8 +18,8 @@
 //----------------------------------------------------------------------------------//
 
 //-- librairie standard --// 
-	// lib pour les entr�e - sortie (console - lecture clavier)
-	// lib pour le entier normalis� 
+#include <stdio.h>			// lib pour les entr�e - sortie (console - lecture clavier)
+#include <stdint.h>			// lib pour le entier normalis� 
 	// lib pour le type bool 
 	// pour la gestion des chaine de caract�re
 
@@ -27,7 +27,7 @@
 
 
 //-- d�finition --// 
-#define ANNEES "25-26"
+#define ANNEES "26-27"
 #define VERSION 1.1
 
 
@@ -41,28 +41,28 @@
 //-- param�tre IN-OUT : - 
 //-- description : programme principal 
 //----------------------------------------------------------------------------------//
-
-
+void main()
+{
 	//-- variables --//
 	//--- Entier Standard 
-	//--- Sign� (+/-)
-		// 1 octet
-		// 2 octets 
-		// 4 octets			
-		// 8 octets 
-	
-	//--- Non sign� (+) 
-		// 1 octet
-		// 2 octets 
-		// 4 octets			
-		// 8 octets 
+	//--- Sign� (+/-) ->	// possibilité de mettre le mot :  "signed" devant le type
+	char exemple1; 			// 1 octet -> en lien avec des les caractère ASCII
+	short exemple2 = 0; 	// 2 octets 
+	int exemple3; 			// 4 octets -> int ou long - /!\ en lien avec soit le uC/uP le compilateur / OS			
+	long long exemple; 		// 8 octets 
 
-	//--- Entier Notrmalis� -> librairie ???
-		//--- Sign� (+/-)
-		// 1 octet
-		// 2 octets 
-		// 4 octets			
-		// 8 octets 
+		//--- Non sign� (+) 
+	unsigned char exemple1_s; 			// 1 octet -> en lien avec des les caractère ASCII
+	unsigned short exemple2_s = 0; 		// 2 octets 
+	unsigned int exemple3_s; 			// 4 octets - int ou long - /!\ en lien avec soit le uC/uP le compilateur / OS			
+	unsigned long long exemple_s; 		// 8 octets 
+
+		//--- Entier Notrmalis� -> librairie ???
+			//--- Sign� (+/-)
+	int8_t 	exemple1_std;		// 1 octet
+	int16_t exemple2_std;		// 2 octets 
+	int32_t exemple3_std;		// 4 octets			
+	int64_t exemple4_std;		// 8 octets 
 
 	//--- Non sign� (+) 
 		// 1 octet
@@ -107,6 +107,7 @@
 	//-- condtion - selection 
 
 	//-- itérations 
+}
 
 
 
